@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event handel</title>
+</head>
+
+<body>
+
+
+    <h1 onclick="clk()">I am faisal</h1>
+    <!-- <button onclick="alert('hello')">click me </button> -->
+    <!-- <button onclick="clk()">click me </button> -->
+
+
+
+    <button id="lis">Click me</button>
+    <button class="li">Click me</button>
+    <button id="lastlis">Click me</button>
+
+
+
+
+    <script>
+        // function clk() {
+        //     alert("Fine oky");
+        // }
+
+
+
+        document.getElementById(lis).addEventListener("click", lisfun);
+
+        function lisfun() {
+            alert("It is event listener");
+        }
+    </script>
+
+</body>
+
+</html>

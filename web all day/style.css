@@ -1,0 +1,7 @@
+.card-body:hover {
+    background: darkcyan;
+}
+
+.carousel-inner {
+    height: 300px;
+}

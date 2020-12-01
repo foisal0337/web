@@ -1,0 +1,7 @@
+
+  // -> variable declear : 
+      
+	1. var  --> redeclear and reassign possibe
+	2. let --> only redenlear possible
+	3. const --> none of those possibe
+	

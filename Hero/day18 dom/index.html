@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h3>Exploring Dom </h3>
+    <p id="f">I am Faisal Ahmed</p>
+
+
+    <script src="dom.js"></script>
+    <script>
+        var x = document.getElementById("f");
+        var y = document.createElement('p');
+        y.innerHTML = "Hello";
+        x.appendChild(y);
+
+
+        // console.log(10);
+        // debugger;
+        // console.log(20);
+        // debugger;
+        // console.log(document);
+        // console.log(document.body);
+    </script>
+</body>
+
+</html>
